@@ -7,17 +7,18 @@
   ***********************/
 
 header {
-  position: absolute;
-  top: 20px;
+  position: relative;
   right: 0;
   width: 100%;
   padding: 0;
   z-index: 9999;
+  border-bottom: 2px solid var(--color-black);
 }
 
 header .logo {
   float: left;
   transition: 0.3s all;
+  max-width: 150px;
 }
 
 header .logo img {
@@ -83,7 +84,7 @@ header .nav li a:hover {
   position: absolute;
   height: 3px;
   width: 100%;
-  background: var(--color-white);
+  background: var(--color-black);
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -127,8 +128,7 @@ header .nav li a:hover {
 .btn {
   display: inline-block;
   opacity: 1;
-  height: 46px;
-  padding: 0 40px;
+  padding: 10px 40px;
   text-align: center;
   font-size: 16px;
   line-height: 46px;
@@ -138,38 +138,29 @@ header .nav li a:hover {
   box-sizing: border-box;
   border: none;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 0px;
   overflow: hidden;
   transition: all 0.4s;
 }
 
 .btn:hover {
-  box-shadow: 1px 1px 25px 10px #db23c859;
+  opacity: 0.8;
 }
 
 /* Button Default */
 
 .btn-dark {
-  background: var(--color-primary);
-  color: var(--color-black);
-}
-
-.btn-dark:hover {
-  background: var(--color-secondary);
+  background: var(--color-black);
   color: var(--color-white);
+  border: 2px solid var(--color-black);
 }
 
 /* Button Light */
 
 .btn-light {
   background: #00000000;
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-black);
   color: var(--color-black);
-}
-
-.btn-light:hover {
-  background: var(--color-primary);
-  color: var(--color-white);
 }
 
 /* Form Inputs */

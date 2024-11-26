@@ -729,16 +729,6 @@
   zoom: 1;
 } /* IE7 */
 
-/* Section */
-
-.main section {
-  height: 100vh;
-}
-
-section {
-  overflow: hidden;
-}
-
 /* Video */
 
 video {
@@ -766,8 +756,8 @@ video {
 }
 
 .container {
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 5vh auto;
   max-width: 1920px;
   position: relative;
 }

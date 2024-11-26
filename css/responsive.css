@@ -14,6 +14,13 @@
 /* Desktop */
 
 @media (max-width: 1600px) {
+  .container {
+    margin: 2vh auto;
+  }
+
+  footer img {
+    right: -10%;
+  }
 }
 
 /* Desktop Small */
@@ -24,30 +31,46 @@
 /* Laptop */
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1600px) {
-  h1 {
-    font-size: 58px;
-    line-height: 62px;
-  }
-
-  .big-type {
-    font-size: 24px;
-    line-height: 32px;
-  }
 }
 
 /* Tablet Landscape */
 
 @media (max-width: 1024px) {
-  section {
-    height: inherit;
-  }
-
   header .nav li {
     font-size: 12px;
   }
 
   header .nav li a {
     padding: 0px 10px 0px 10px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .head {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .hero-badger {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-badger h2 {
+    width: 100%;
+    font-size: 36px;
+  }
+
+  footer img {
+    max-width: 350px;
   }
 }
 
@@ -69,7 +92,7 @@
     right: 0;
     width: 0;
     height: 100vh;
-    background: var(--color-secondary);
+    background: var(--color-white);
     transition: width 0.4s;
     z-index: 9;
     flex-direction: column;
@@ -127,6 +150,7 @@
   h1 {
     font-size: 38px;
     line-height: 42px;
+    text-align: center;
   }
 
   h2 {
@@ -142,6 +166,7 @@
 
   .hero {
     align-items: flex-end;
+    padding: 0px;
   }
 
   .big-type {
@@ -150,10 +175,54 @@
   }
 
   .hero-title {
-    margin-bottom: 10vh;
+    flex-direction: column;
   }
-  .rotate-text {
+
+  .hero-title .w-50 {
+    margin-bottom: 5vh;
+  }
+
+  .hero-title img {
     width: 100%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .hero-badger {
+    align-items: center;
+    text-align: center;
+  }
+
+  .head {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid {
+    grid-template-columns: 48% 48%;
+  }
+  section {
+    padding-bottom: 0px;
+  }
+
+  .address {
+    max-width: 90%;
+  }
+
+  footer p {
+    width: 100%;
+  }
+
+  footer {
+    padding-bottom: 0;
+  }
+
+  footer img {
+    position: relative;
+    right: 0;
+    bottom: -10px;
   }
 }
 

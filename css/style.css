@@ -2,28 +2,10 @@
    General Styles
    ========================================================================== */
 
-@font-face {
-  font-family: "Unbounded";
-  src: url("/fonts/Unbounded-Medium.woff2") format("woff2"),
-    url("/fonts/Unbounded-Medium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("/fonts/Inter-Regular.woff2") format("woff2"),
-    url("/fonts/Inter-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Color Palette */
 
 :root {
-  --color-primary: #aef868;
+  --color-primary: #ffb800;
   --color-secondary: #070707;
   --color-complimentary: #3776c4;
 
@@ -34,11 +16,15 @@
   --color-messageSuccess: #009aff;
   --color-fieldError: #ff2840;
 
-  --font-title: "Unbounded", sans-serif;
-  --font-text: "Inter", sans-serif;
+  --font-title: "IBM Plex Mono", monospace;
+  --font-text: "IBM Plex Mono", monospace;
 }
 
 /* Main */
+
+* {
+  color: var(--color-black);
+}
 
 html {
   scroll-behavior: smooth;
@@ -48,8 +34,8 @@ html,
 body {
   height: 100%;
   font-family: var(--font-text);
-  background: var(--color-secondary);
-  color: var(--color-white);
+  background: var(--color-white);
+  color: var(--color-black);
   margin: 0;
 }
 
@@ -64,34 +50,38 @@ h3,
 h4,
 h5 {
   margin: 0px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: var(--font-title);
   text-transform: uppercase;
 }
 
 h1 {
-  font-size: 82px;
-  line-height: 86px;
+  font-size: 32px;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
   margin-bottom: 20px;
 }
 
 p {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 130%;
   letter-spacing: 1px;
   margin-top: 0px;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-white);
 }
 
 .big-type {
   font-size: 32px;
   line-height: 36px;
-  color: var(--color-white);
   text-transform: uppercase;
 }
 
@@ -117,15 +107,96 @@ a {
 
 .hero {
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   max-width: 1920px;
   margin: 0px auto;
   position: relative;
+  padding: 10vh 0;
 }
 
 .hero-vid {
   position: absolute;
   width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item p {
+  margin-bottom: 0;
+}
+
+section {
+  padding-bottom: 5vh;
+}
+
+.address {
+  text-align: center;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.address p:nth-child(2) {
+  padding: 20px;
+  font-weight: bold;
+  border: 2px solid #000000;
+}
+
+footer {
+  border-top: 2px solid var(--color-black);
+  padding: 5vh 0;
+}
+
+footer p {
+  width: 70%;
+}
+
+footer img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 460px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.head img {
+  max-width: 36px;
+  margin-right: 10px;
+}
+
+.hero-badger {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero-badger img {
+  max-width: 230px;
+}
+
+.hero-badger h2 {
+  width: 50%;
 }
