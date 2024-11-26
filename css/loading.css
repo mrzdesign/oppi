@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Loading Styles
+   ========================================================================== */
+
+/* Loading container */
+.loading {
+  background: #000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  z-index: 99999;
+}
+
+/* Loading image */
+
+.loading img {
+  animation: glow 1s infinite;
+  animation-timing-function: ease-in-out;
+}

@@ -1,0 +1,162 @@
+/* ==========================================================================
+   Responsive styles
+   ========================================================================== */
+
+/* Wide Screens */
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .container {
+    max-width: 1920px;
+    margin: 0px auto;
+  }
+}
+
+/* Desktop */
+
+@media (max-width: 1600px) {
+}
+
+/* Desktop Small */
+
+@media (max-width: 1400px) {
+}
+
+/* Laptop */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+  h1 {
+    font-size: 58px;
+    line-height: 62px;
+  }
+
+  .big-type {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* Tablet Landscape */
+
+@media (max-width: 1024px) {
+  section {
+    height: inherit;
+  }
+
+  header .nav li {
+    font-size: 12px;
+  }
+
+  header .nav li a {
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+/* Tablet Portrait */
+
+@media (max-width: 768px) {
+  .container-tiny {
+    width: 100%;
+  }
+
+  #nav-icon {
+    display: block;
+    z-index: 999;
+  }
+
+  header .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background: var(--color-secondary);
+    transition: width 0.4s;
+    z-index: 9;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  header .nav.open {
+    width: 100vw;
+  }
+
+  header .nav li {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 70vw;
+  }
+
+  header .nav li a {
+    display: block;
+    padding: 15px;
+    font-size: 24px;
+    z-index: 9999;
+  }
+
+  header .btn {
+    display: none !important;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
+/* Mobile Landscape */
+
+@media (max-width: 768px), (orientation: landscape) and (max-height: 500px) {
+}
+
+/* Mobile */
+
+@media (max-width: 642px) {
+  .w-40,
+  .w-50,
+  .w-60,
+  .w-70 {
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .hero-vid {
+    position: absolute;
+    width: 250%;
+    top: 2%;
+    right: -32%;
+  }
+
+  .hero {
+    align-items: flex-end;
+  }
+
+  .big-type {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .hero-title {
+    margin-bottom: 10vh;
+  }
+  .rotate-text {
+    width: 100%;
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 375px) {
+}

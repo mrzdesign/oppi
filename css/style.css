@@ -1,0 +1,131 @@
+/* ==========================================================================
+   General Styles
+   ========================================================================== */
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("/fonts/Unbounded-Medium.woff2") format("woff2"),
+    url("/fonts/Unbounded-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Regular.woff2") format("woff2"),
+    url("/fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Color Palette */
+
+:root {
+  --color-primary: #aef868;
+  --color-secondary: #070707;
+  --color-complimentary: #3776c4;
+
+  --color-white: #fff;
+  --color-black: #131313;
+
+  --color-messageError: #ff2840;
+  --color-messageSuccess: #009aff;
+  --color-fieldError: #ff2840;
+
+  --font-title: "Unbounded", sans-serif;
+  --font-text: "Inter", sans-serif;
+}
+
+/* Main */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-text);
+  background: var(--color-secondary);
+  color: var(--color-white);
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* Titles */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  font-weight: 500;
+  font-family: var(--font-title);
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 82px;
+  line-height: 86px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.big-type {
+  font-size: 32px;
+  line-height: 36px;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.loading {
+  background: var(--color-secondary);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  z-index: 99999;
+}
+
+.loading img {
+  width: 100px;
+}
+
+/***********************
+        SECTION 1
+***********************/
+
+.hero {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.hero-vid {
+  position: absolute;
+  width: 100%;
+}
