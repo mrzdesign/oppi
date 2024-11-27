@@ -1,21 +1,32 @@
 /* ==========================================================================
    Responsive styles
    ========================================================================== */
-
+.container > * {
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0; /* Prevent children from collapsing */
+}
 /* Wide Screens */
 
 @media (min-width: 1920px) and (max-width: 2560px) {
-  .container {
-    max-width: 1920px;
-    margin: 0px auto;
-  }
+.container {
+  width: 100%;
+  max-width: 1920px; /* Or any desired max-width */
+  min-height: 100vh; /* Ensures full-screen height */
+  margin: 0 auto; /* Center container */
+  display: flex; /* For flexible layout */
+  flex-direction: column; /* Vertical alignment of children */
+  justify-content: flex-start; /* Adjust vertical alignment if needed */
+  align-items: center; /* Adjust horizontal alignment if needed */
+}
 }
 
 /* Desktop */
 
 @media (max-width: 1600px) {
-  .container {
-    margin: 2vh auto;
+ .container {
+    margin: 2vh auto; /* Keep centered */
+    min-height: 100vh; /* Add this if missing */
   }
 
   footer img {
@@ -25,7 +36,13 @@
 
 /* Desktop Small */
 
-@media (max-width: 1400px) {
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    max-width: 100%; /* Adjust width for tablets */
+    min-height: 100vh; /* Ensures height consistency */
+    margin: 0 auto; /* Center container */
+  }
 }
 
 /* Laptop */
@@ -93,6 +110,12 @@
 /* Mobile */
 
 @media (max-width: 642px) {
+
+   .container {
+    width: 90%; /* Keep as is for mobile layout */
+    min-height: 100vh; /* Ensures consistent height */
+  }
+   
   .w-40,
   .w-50,
   .w-60,
@@ -134,10 +157,6 @@
 
   .hero-title img {
     width: 100%;
-  }
-
-  .container {
-    width: 90%;
   }
 
   .hero-badger {
