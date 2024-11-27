@@ -81,48 +81,6 @@
     width: 100%;
   }
 
-  #nav-icon {
-    display: block;
-    z-index: 999;
-  }
-
-  header .nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 100vh;
-    background: var(--color-white);
-    transition: width 0.4s;
-    z-index: 9;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  header .nav.open {
-    width: 100vw;
-  }
-
-  header .nav li {
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    width: 70vw;
-  }
-
-  header .nav li a {
-    display: block;
-    padding: 15px;
-    font-size: 24px;
-    z-index: 9999;
-  }
-
-  header .btn {
-    display: none !important;
-  }
-
   h1 {
     font-size: 26px;
   }
@@ -169,17 +127,13 @@
     padding: 0px;
   }
 
-  .big-type {
-    font-size: 20px;
-    line-height: 28px;
-  }
-
   .hero-title {
     flex-direction: column;
   }
 
   .hero-title .w-50 {
     margin-bottom: 5vh;
+    text-align: center;
   }
 
   .hero-title img {
