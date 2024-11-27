@@ -76,8 +76,15 @@ p {
 }
 
 a {
-  text-decoration: none;
+    color: #1CEEB2;
+    text-decoration: none; /* Optional: removes the underline */
 }
+
+a:hover {
+    color: #17C29D; /* Optional: changes color when hovered over */
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
 
 .big-type {
   font-size: 32px;
