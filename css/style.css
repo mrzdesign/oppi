@@ -42,8 +42,6 @@ body {
   width: 100%;
 }
 
-/* Import Font */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
 
 /* Titles */
 body h1, h2, h3, h4, h5 {
@@ -51,7 +49,6 @@ body h1, h2, h3, h4, h5 {
   font-family: "League Spartan", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-   color:red;
 }
 
 h1 {
