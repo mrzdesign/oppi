@@ -45,8 +45,8 @@ body {
 /* Titles */
 body h1,h2,h3,h4,h5 {
   margin: 0px;
-  font-family: "League Spartan", sans-serif;
-  font-weight: 900;
+  font-family: "League Spartan", sans-serif !important;
+  font-weight: 900 !important;
   text-transform: uppercase;
 }
 
