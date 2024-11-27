@@ -92,8 +92,8 @@ header .nav li a:hover {
 /* Button Default */
 
 .btn-dark {
-  background: var(--color-blue);
-  color: var(--color-white);
+  background:#1CEEB2;
+  color: var(--color-black);
   border: 2px solid var(--color-black);
 }
 
