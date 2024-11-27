@@ -1,7 +1,7 @@
 /* ==========================================================================
    General Styles
    ========================================================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 /* Color Palette */
 
 :root {
@@ -51,7 +51,7 @@ h4,
 h5 {
   margin: 0px;
   font-weight: 900;
-  font-family: var(--font-title);
+  font-family: "League Spartan", sans-serif;
   text-transform: uppercase;
 }
 
