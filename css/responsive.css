@@ -7,7 +7,7 @@
 @media (min-width: 1920px) and (max-width: 2560px) {
   .container {
     max-width: 1920px;
-    margin: 0px auto;
+     margin: 2vh auto;
   }
 }
 
