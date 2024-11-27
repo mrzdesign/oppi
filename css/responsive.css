@@ -2,22 +2,19 @@
    Responsive styles
    ========================================================================== */
 
+ .container {
+    max-width: 1920px;
+  }
+
 /* Wide Screens */
 
 @media (min-width: 1920px) and (max-width: 2560px) {
-  .container {
-    max-width: 1920px;
-     margin: 2vh auto;
-  }
+
 }
 
 /* Desktop */
 
 @media (max-width: 1600px) {
-  .container {
-    margin: 2vh auto;
-  }
-
   footer img {
     right: -10%;
   }
@@ -26,17 +23,12 @@
 /* Desktop Small */
 
 @media (max-width: 1400px) {
-    .container {
-    margin: 2vh auto;
   }
 }
 
 /* Laptop */
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1600px) {
-    .container {
-    margin: 2vh auto;
-  }
 }
 
 /* Tablet Landscape */
@@ -144,7 +136,6 @@
 
   .container {
     width: 90%;
-    margin: 2vh auto;
   }
 
   .hero-badger {
