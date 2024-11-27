@@ -26,7 +26,9 @@
 /* Desktop Small */
 
 @media (max-width: 1400px) {
-   
+    .container {
+    margin: 2vh auto;
+  }
 }
 
 /* Laptop */
