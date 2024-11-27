@@ -76,13 +76,18 @@ p {
 }
 
 a {
-    color: #1CEEB2;
-    text-decoration: none; /* Optional: removes the underline */
+    color: #1CEEB2; /* Default link color */
+    text-decoration: none; /* Optional: removes underline */
 }
 
 a:hover {
-    color: #17C29D; /* Optional: changes color when hovered over */
+    color: #17C29D; /* Optional: hover color */
     text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+a:visited {
+    color: #0FAB91; /* Color for visited links */
+    text-decoration: none; /* Optional: keeps visited links without underline */
 }
 
 
