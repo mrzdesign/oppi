@@ -186,6 +186,9 @@ footer img {
   display: flex;
   align-items: center;
   margin-top: 40px;
+min-wiDth:400px;
+
+
 }
 
 .head {
