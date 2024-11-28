@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Facebook sharing meta tags -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="OPPI - The Meme Coin Movement on Solana"
+    />
+    <meta property="og:description" content="Join the OPPI movement! Fueled by fun and freedom, we challenge the absurd, embrace laughter, and rewrite the rules—one meme at a time. Made for fun by MARTO." />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="images/feature.png" />
+    <meta
+      property="og:site_name"
+      content="OPPI - The Meme Coin Movement on Solana"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter sharing meta tags -->
+    <meta
+      name="twitter:title"
+      content="OPPI - The Meme Coin Movement on Solana"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Join the OPPI movement! Fueled by fun and freedom, we challenge the absurd, embrace laughter, and rewrite the rules—one meme at a time. Made for fun by MARTO." />
+    <meta name="twitter:image" content="images/feature.png" />
+
+    <meta name="description" content="Join the OPPI movement! Fueled by fun and freedom, we challenge the absurd, embrace laughter, and rewrite the rules—one meme at a time. Made for fun by MARTO." />
+
+    <title>OPPI - The Meme Coin Movement on Solana</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=League+Spartan:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="/images/head.png" type="image/png" sizes="16x16" />
+
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/ui.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="clearfix">
+        <div class="container d-flex f-align-center f-justify-between">
+          <a href="/" class="logo">
+            <img src="/images/logo.png" alt="" title="" />
+          </a>
+          <div class="d-flex f-align-center">
+            <ul class="nav">
+              <li>
+                <a href="https://x.com/OPPImeme"
+                  ><img src="/images/x.svg" alt="Follow OPPI meme on X"
+                /></a>
+              </li>
+              <li>
+                <a href="https://t.me/OPPImeme"
+                  ><img
+                    src="/images/telegram.svg"
+                    alt="Join OPPI meme on Telegram"
+                /></a>
+              </li>
+              <li>
+                <a href="mailto:marius@martocsan.com"
+                  ><img
+                    src="/images/email.svg"
+                    alt="Send an email to Marto - Creator of OPPI"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section
+        class="hero container-wide"
+        id="first"
+        data-id="first"
+        data-index="1"
+      >
+        <div class="container d-flex f-align-center z-9">
+          <div class="hero-title d-flex f-align-center">
+            <div class="w-50 d-flex f-dir-col f-align-center">
+              <h2 class="d-flex f-align-center">ONE DAY I’LL SHUT UP</h2>
+              <img src="/images/hero.jpg" alt="" />
+              <h3 class="d-flex f-align-center p-relative">
+                NOT TODAY THO!
+                <img src="/images/underline .png" alt="" class="underline" />
+              </h3>
+            </div>
+            <div class="w-50">
+              <div class="hero-badger">
+                <h1>JOIN OPPI Movement</h1>
+              </div>
+              <p>
+                Enough is enough! The time to rise is NOW. Whether it’s
+                questioning the absurd, challenging the ordinary, or poking fun
+                at the chaos, <strong>OPPI</strong> is your fearless companion
+                in the fight for fun and freedom. <br /><br />
+                Fueled by laughter and unstoppable energy, we stand against
+                nonsense—big, small, and everything in between. From serious
+                debates to life’s quirks, we’re here to say:
+                <strong>"Let’s make it better."</strong> <br /><br />
+                This is your moment. Join the bold, cheeky movement that’s
+                rewriting the rules of what’s possible—one meme at a time.
+                <br /><br />
+                Made by <a href="https://x.com/martocsan_"><b>MARTO</b></a> for
+                fun and 10% from tokens. 
+              </p>
+              <div class="btn-container">
+                <a href="https://t.me/OPPImeme" class="btn btn-light"
+                  >Join OPPI MOVEMENT
+                </a>
+                <a href="#" class="btn btn-dark head"
+                  ><img src="/images/head.png" alt="" /> BUY $OPPI
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="second container-wide"
+        id="second"
+        data-id="second"
+        data-index="2"
+      >
+        <div class="container grid">
+          <div class="item">
+            <img src="/images/frame1.png" alt="" />
+            <div>
+              <p>Mint and freeze</p>
+              <strong>REVOKED</strong>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/frame2.png" alt="" />
+            <div>
+              <p>Liquidity</p>
+              <strong>BURNED</strong>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/frame3.png" alt="" />
+            <div>
+              <p>Buy & Sell</p>
+              <strong>0% FEE TAX</strong>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/frame4.png" alt="" />
+            <div>
+              <p>Tokenomics</p>
+              <strong>1 BN</strong>
+            </div>
+          </div>
+        </div>
+        <div class="address">
+          <p>CONTRACT ADDRESS</p>
+          <p>00adsaxsadassadafsa2309i543lasdfaf</p>
+        </div>
+      </section>
+      <footer class="container">
+        <p>
+          By accessing this website, you agree that it is a meme-focused
+          platform for entertainment purposes only. Any investment or financial
+          decisions based on its content are at your own risk. Investing in
+          memes is highly risky and may result in significant loss. You are
+          responsible for conducting due diligence and complying with your local
+          laws. The website and its creators are not liable for any losses or
+          consequences arising from your actions.
+        </p>
+        <strong>Copyright OPPI 2024</strong>
+        <img src="/images/badger.png" alt="" />
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
