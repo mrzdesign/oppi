@@ -33,7 +33,7 @@ html,
 body {
   height: 100%;
   font-family: var(--font-text);
-  background: var(--color-white);
+  background: #9FC1FF;
   color: var(--color-black);
   margin: 0;
 }
